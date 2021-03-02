@@ -27,7 +27,7 @@ DimmChannel_RGB::DimmChannel_RGB(HardwareChannel* hardwareChannel_R, HardwareCha
   m_comobj_sw_stat = first_comobj + COMOBJ_CH_X_STAT_SW;
   m_comobj_dim = first_comobj + COMOBJ_CH_X_DIM;
   m_comobj_dim_stat = first_comobj + COMOBJ_CH_X_STAT_DIM;
-  m_comobj_lock = first_comobj + COMOBJ_ch_X_lock;
+  m_comobj_lock = first_comobj + COMOBJ_CH_X_LOCK;
   m_comobj_scene = first_comobj + COMOBJ_CH_X_SCENE;
   m_comobj_animation = first_comobj + COMOBJ_CH_X_ANIMATION;
 }
